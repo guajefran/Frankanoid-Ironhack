@@ -1,0 +1,104 @@
+body{
+  background: blue;
+}
+
+#start{
+  width: 70px;
+  height: 20px;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+}
+
+#board{
+  background-color: black;
+  background-size: 100% auto;
+  height: 800px;
+  width: 600px;
+  margin: 0px;
+  position: absolute;
+  border: 10px double #fff;
+  border-radius: 10px;
+
+}
+#container-bricks{
+  box-sizing: border-box;
+  width: 500px;
+  margin: 0px 0px 0px 65px;
+
+}
+.brick {
+  position: absolute;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 0px 3px 3px 0px;
+  height: 20px;
+  width: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.paddle {
+  height: 12px;
+  width: 80px;
+  position: absolute;
+  border-radius: 5px
+}
+
+#paddle1 {
+  background-color: white;
+  left: 250px;
+  top: 740px;
+  position: relative;
+}
+.paddle2 {
+  background-color: red;
+  height: 12px;
+  width: 10px;
+  margin-left: 10px;
+  border-radius: 1px;
+}
+.paddle3 {
+  background-color: grey;
+  height: 12px;
+  width: 40px;
+  margin-left: 10px;
+  border-radius: 1px;
+}
+.paddle4 {
+  background-color: red;
+  height: 12px;
+  width: 10px;
+  margin-left: 40px;
+  border-radius: 1px;
+}
+#ball{
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 250px  ;
+  top: 700px;
+  border-radius: 50%;
+}
+.box-score{
+  width: 200px;
+  height: 300px;
+  left:630px;
+  border: 10px solid #000;
+  position: relative;
+  background-color: red;
+  border-radius: 10px;
+}
+.score{
+  border: 5px solid #000;
+
+}
+.player1{
+  border: 5px solid #000;
+
+}
+.player2{
+  border: 5px solid #000;
+
+}
