@@ -1,13 +1,13 @@
 body{
-  background-image: url(backgraundbrick.jpg);
+  background-image: url(img/backgraundbrick.jpg);
 }
 @font-face {
     font-family: "fontRetro";
-    src: url(enhanced_dot_digital-7.ttf) format("truetype");
+    src: url(text/enhanced_dot_digital-7.ttf) format("truetype");
 }
 @font-face {
     font-family: "pixeled";
-    src: url(Pixeled.ttf) format("truetype");
+    src: url(text/Pixeled.ttf) format("truetype");
 }
 
 .boardready{
@@ -21,7 +21,7 @@ body{
   height: 100%;
   margin: 10px;
   z-index: 500;
-  background-image: url(frankanoid.png);
+  background-image: url(img/frankanoid.png);
   background-repeat: no-repeat;
   visibility: visible;
 }
@@ -49,7 +49,7 @@ body{
 }
 
 #board{
-  background-image: url(background2017.png);
+  background-image: url(img/background2017.png);
   background-size: 100% auto;
   height: 800px;
   width: 600px;
@@ -68,7 +68,7 @@ body{
 .brick {
   position: absolute;
   border: 1px outset #fff;
-  background-image: url(ladrillo.png);
+  background-image: url(img/ladrillo.png);
   margin: 10px 3px 3px 0px;
   height: 20px;
   width: 40px;
@@ -112,7 +112,7 @@ body{
   border-radius: 1px;
 }
 #ball{
-  background-image: url(tennis_ball.png);
+  background-image: url(img/tennis_ball.png);
   background-size: 15px, 15px;
   height: 15px;
   width: 15px;
@@ -128,7 +128,7 @@ body{
   left:630px;
   border: 10px solid #000;
   position: relative;
-  background-image: url(score.jpg) ;
+  background-image: url(img/score.jpg) ;
   background-position: 50% -24px;
   background-size: 100% 120%;
   border-radius: 10px;
@@ -210,7 +210,7 @@ body{
   position: relative;
   background-size: 100% auto;
   background-position: 50%;
-  background-image: url(gameoverlogos.gif);
+  background-image: url(img/gameoverlogos.gif);
   visibility: hidden;
   background-repeat: no-repeat;
 }
@@ -220,7 +220,7 @@ body{
   margin: 160px;
   z-index: 100;
   position: relative;
-  background-image: url(gameover.png);
+  background-image: url(img/winnerbackground.png);
   visibility: hidden;
   background-repeat: no-repeat;
 }
